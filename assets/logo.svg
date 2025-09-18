@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="44" height="44" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Logotipo Farmácia Albuquerque">
+  <title>Farmácia Albuquerque</title>
+  <!-- Símbolo em forma de cruz com cantos arredondados, nas cores vermelho e amarelo -->
+  <defs>
+    <path id="cross-path" d="M32 6c3.314 0 6 2.686 6 6v8h8c3.314 0 6 2.686 6 6s-2.686 6-6 6h-8v8c0 3.314-2.686 6-6 6s-6-2.686-6-6v-8h-8c-3.314 0-6-2.686-6-6s2.686-6 6-6h8v-8c0-3.314 2.686-6 6-6Z"/>
+  </defs>
+  <!-- Traço vermelho mais espesso (externo) -->
+  <use href="#cross-path" stroke="#D91E18" stroke-width="10" stroke-linejoin="round" stroke-linecap="round"/>
+  <!-- Traço amarelo interno -->
+  <use href="#cross-path" stroke="#FECC00" stroke-width="5" stroke-linejoin="round" stroke-linecap="round"/>
+</svg>

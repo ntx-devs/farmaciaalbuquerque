@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Farmácia Albuquerque</title>
+  <meta name="description" content="Farmácia Albuquerque — Cuidando da sua saúde com confiança. Entrega rápida, atendimento especializado e variedade de produtos." />
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="styles.css" />
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <!-- Cursor customizado desativado -->
+
+  <!-- Header -->
+  <header class="header" id="topo">
+    <div class="container header__inner">
+      <a href="#inicio" class="brand" aria-label="Ir para o início">
+        <img src="assets/superior.png" alt="Logotipo Farmácia Albuquerque" class="brand__logo" width="44" height="44" />
+        <span class="brand__name">Farmácia Albuquerque</span>
+      </a>
+
+      <nav class="nav" aria-label="Navegação primária">
+        <button class="nav__toggle" aria-expanded="false" aria-controls="menu">☰</button>
+        <ul id="menu" class="nav__list">
+          <li><a class="nav__link" href="#inicio">Início</a></li>
+          <li><a class="nav__link" href="#servicos">Serviços</a></li>
+          <li><a class="nav__link" href="#sobre">Sobre Nós</a></li>
+          <li><a class="nav__link" href="#contato">Contato</a></li>
+        </ul>
+      </nav>
+
+      <!-- Botão WhatsApp removido -->
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero -->
+    <section id="inicio" class="hero">
+      <div class="hero__bg" role="img" aria-label="Ambiente de farmácia moderno"></div>
+      <div class="hero__blur" aria-hidden="true"></div>
+      <div class="container hero__content">
+        <h1 class="hero__title reveal">Cuidando da sua saúde com a confiança que você merece.</h1>
+        <p class="hero__subtitle reveal" style="--delay: .1s">Entrega rápida, atendimento especializado e a maior variedade de medicamentos e produtos de perfumaria.</p>
+        <a class="btn btn--primary" href="#servicos" style="--delay: .2s">Ver Ofertas da Semana</a>
+      </div>
+    </section>
+
+    <!-- Serviços -->
+    <section id="servicos" class="section services">
+      <div class="container">
+        <h2 class="section__title reveal">Nossos Diferenciais</h2>
+        <div class="services__grid">
+          <!-- Card 1 -->
+          <article class="card reveal">
+            <div class="card__icon" aria-hidden="true">
+              <!-- Moto / Entrega -->
+              <svg width="40" height="40" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M12 36a5 5 0 1 0 0-10 5 5 0 0 0 0 10Zm24 0a5 5 0 1 0 0-10 5 5 0 0 0 0 10Z" stroke="currentColor" stroke-width="3"/>
+                <path d="M9 31h9l6-8h10l5 5" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M28 23l-2-6h-6" stroke="currentColor" stroke-width="3" stroke-linecap="round"/>
+                <path d="M36 17h6v8h-6l-4-4 4-4Z" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+            </div>
+            <h3 class="card__title">Entrega Expressa</h3>
+            <p class="card__text">Receba seus medicamentos no conforto da sua casa com agilidade e segurança.</p>
+          </article>
+
+          <!-- Card 2 -->
+          <article class="card reveal" style="--delay: .05s">
+            <div class="card__icon" aria-hidden="true">
+              <!-- Relógio / 24h -->
+              <svg width="40" height="40" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <circle cx="24" cy="24" r="16" stroke="currentColor" stroke-width="3"/>
+                <path d="M24 14v10l7 4" stroke="currentColor" stroke-width="3" stroke-linecap="round"/>
+              </svg>
+            </div>
+            <h3 class="card__title">Atendimento 24h</h3>
+            <p class="card__text">Suporte especializado todos os dias, inclusive finais de semana e feriados.</p>
+          </article>
+
+          <!-- Card 3 -->
+          <article class="card reveal" style="--delay: .1s">
+            <div class="card__icon" aria-hidden="true">
+              <!-- Cesta / Variedade -->
+              <svg width="40" height="40" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M8 20h32l-3 18H11L8 20Z" stroke="currentColor" stroke-width="3" stroke-linejoin="round"/>
+                <path d="M16 20l8-10 8 10" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+            </div>
+            <h3 class="card__title">Variedade de Produtos</h3>
+            <p class="card__text">Medicamentos, perfumaria, dermocosméticos e muito mais em um só lugar.</p>
+          </article>
+
+          <!-- Card 4 -->
+          <article class="card reveal" style="--delay: .15s">
+            <div class="card__icon" aria-hidden="true">
+              <!-- Escudo / Confiança -->
+              <svg width="40" height="40" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M24 6l14 5v9c0 9.5-6.7 16.4-14 18-7.3-1.6-14-8.5-14-18V11l14-5Z" stroke="currentColor" stroke-width="3" stroke-linejoin="round"/>
+                <path d="M17 25l5 5 9-9" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+            </div>
+            <h3 class="card__title">Confiança e Cuidado</h3>
+            <p class="card__text">Profissionais capacitados e atendimento humanizado para toda a família.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Sobre Nós -->
+    <section id="sobre" class="section about about--center">
+      <div class="container about__grid">
+        <!--
+        <div class="about__image reveal">
+          <img src="assets/sobre.jpg" alt="Farmácia Albuquerque - identidade visual em fundo vermelho" loading="lazy" />
+        </div>
+        -->
+        <div class="about__content reveal" style="--delay: .1s">
+          <h2 class="section__title">Farmácia Albuquerque: Tradição e Cuidado</h2>
+          <p>
+            Desde a nossa fundação, temos o compromisso de oferecer produtos de qualidade e um atendimento
+            próximo, humano e transparente. Acreditamos que saúde se constrói com confiança e informação.
+          </p>
+          <p>
+            Aqui você encontra farmacêuticos sempre disponíveis para orientar, além de serviços que facilitam
+            o seu dia a dia: entrega expressa, preços justos e um catálogo completo para toda a família.
+          </p>
+          <ul class="about__bullets">
+            <li>Equipe qualificada e em constante atualização;</li>
+            <li>Parcerias com os melhores laboratórios;</li>
+            <li>Compromisso com a sua saúde e bem-estar.</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contato -->
+    <section id="contato" class="section contact contact--social">
+      <div class="container">
+        <h2 class="section__title contact__title">Siga a Farmácia Albuquerque</h2>
+        <p class="contact__subtitle">Fique por dentro das novidades e promoções nas nossas redes sociais!</p>
+        <div class="social-buttons">
+          <a class="social-btn instagram" target="_blank" rel="noopener" href="https://www.instagram.com/farmacia.albuquerque2" aria-label="Instagram"><span class="icon" aria-hidden="true"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><rect x="3" y="3" width="18" height="18" rx="5" stroke="currentColor" stroke-width="2"/><circle cx="12" cy="12" r="4" stroke="currentColor" stroke-width="2"/><circle cx="17.5" cy="6.5" r="1.2" fill="currentColor"/></svg></span><span>Instagram</span></a>
+          <a class="social-btn facebook" target="_blank" rel="noopener" href="https://www.facebook.com/people/Farm%C3%A1cia-Albuquerque/61576818583586/?checkpoint_src=any" aria-label="Facebook"><span class="icon" aria-hidden="true"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M14.5 8H16V5h-2a3 3 0 0 0-3 3v2H9v3h2v6h3v-6h2l1-3h-3V8a1 1 0 0 1 1-1Z" fill="currentColor"/></svg></span><span>Facebook</span></a>
+          <a class="social-btn whatsapp" target="_blank" rel="noopener" href="https://wa.me/5583981921717" aria-label="WhatsApp"><span class="icon" aria-hidden="true"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M20 12a8 8 0 0 1-11.9 6.9L4 21l2.1-4.1A8 8 0 1 1 20 12Z" stroke="currentColor" stroke-width="2"/><path d="M8.5 10.5c.3 1.8 2.2 3.8 4 4.2.6.2 1.3 0 1.7-.5l.6-.6c.2-.2.2-.5 0-.7l-1.2-1.2a.6.6 0 0 0-.8 0l-.4.4c-.3.3-.8.3-1.1 0l-1-1c-.3-.3-.3-.8 0-1.1l.4-.4c.3-.3.3-.7 0-1l-1.2-1.2a.6.6 0 0 0-.7 0l-.6.6c-.4.4-.6 1.1-.5 1.7Z" fill="currentColor"/></svg></span><span>WhatsApp</span></a>
+        </div>
+      </div>
+    </section>
+
+
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer__inner">
+      <!--
+      <div class="footer__brand">
+        <img src="assets/logo.svg" alt="Farmácia Albuquerque" width="32" height="32" />
+        <span>Farmácia Albuquerque</span>
+      </div>
+      -->
+    </div>
+    <div class="footer__copy">
+      <p>CNPJ: 51531885/0001-96</p>
+      <p>Praça Elias Cavalcante de Albuquerque - cavalcanti, São Miguel de Taipu - PB, CEP 58334-000</p>
+      <p>Telefone: (83) 98192-1717</p>
+      <p>© 2025 Farmácia Albuquerque. Todos os direitos reservados.</p>
+    </div>
+  </footer>
+</body>
+</html>
