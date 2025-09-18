@@ -12,17 +12,20 @@ Landing page moderna e responsiva para a Farmácia Albuquerque, desenvolvida com
 ## 📦 Instalação
 
 1. Clone o repositório:
+
 ```bash
 git clone https://github.com/ntx-devs/farmaciaalbuquerque.git
 cd farmaciaalbuquerque
 ```
 
 2. Instale as dependências:
+
 ```bash
 pnpm install
 ```
 
 3. Execute o servidor de desenvolvimento:
+
 ```bash
 pnpm dev
 ```
@@ -57,6 +60,7 @@ pnpm dev
 ## 📱 Responsividade
 
 A landing page foi desenvolvida com foco em responsividade, funcionando perfeitamente em:
+
 - Desktop
 - Tablet
 - Mobile
